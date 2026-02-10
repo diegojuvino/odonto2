@@ -1,38 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Clínica Odontológica Premium - Sorriso Perfeito Odontologia. Tratamentos especializados com tecnologia de ponta e atendimento humanizado. Agende sua consulta!">
-    <meta name="keywords" content="dentista, clínica odontológica, implantes dentários, clareamento dental, ortodontia, odontologia estética">
+    <meta name="description"
+        content="Clínica Odontológica Premium - Sorriso Perfeito Odontologia. Tratamentos especializados com tecnologia de ponta e atendimento humanizado. Agende sua consulta!">
+    <meta name="keywords"
+        content="dentista, clínica odontológica, implantes dentários, clareamento dental, ortodontia, odontologia estética">
     <meta name="author" content="Sorriso Perfeito Odontologia">
     <meta name="robots" content="index, follow">
-    
+
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Sorriso Perfeito Odontologia - Seu Sorriso Mais Bonito e Saudável">
     <meta property="og:description" content="Tecnologia de ponta com atendimento humanizado. Agende sua consulta!">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://images.pexels.com/photos/3845553/pexels-photo-3845553.jpeg">
-    
+
     <title>Sorriso Perfeito Odontologia - Clínica Odontológica Premium</title>
-    
+
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>😁</text></svg>">
-    
+    <link rel="icon" type="image/png"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>😁</text></svg>">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
     <!-- Bootstrap 5 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
     <!-- AOS Animation Library -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -49,35 +58,40 @@
             --light-gray: #f8f9fa;
             --dark-gray: #6c757d;
             --text-dark: #212529;
-            
+
             --font-heading: 'Montserrat', sans-serif;
             --font-body: 'Open Sans', sans-serif;
-            
+
             --transition: all 0.3s ease;
         }
-        
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         html {
             scroll-behavior: smooth;
         }
-        
+
         body {
             font-family: var(--font-body);
             color: var(--text-dark);
             line-height: 1.6;
             overflow-x: hidden;
         }
-        
-        h1, h2, h3, h4, h5, h6 {
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
             font-family: var(--font-heading);
             font-weight: 700;
         }
-        
+
         /* ============================================
            NAVBAR SECTION
         ============================================ */
@@ -87,12 +101,12 @@
             padding: 1rem 0;
             transition: var(--transition);
         }
-        
+
         .navbar.scrolled {
             padding: 0.5rem 0;
             box-shadow: 0 2px 30px rgba(0, 0, 0, 0.15);
         }
-        
+
         .navbar-brand {
             font-family: var(--font-heading);
             font-weight: 800;
@@ -102,12 +116,12 @@
             align-items: center;
             gap: 0.5rem;
         }
-        
+
         .navbar-brand i {
             color: var(--coral);
             font-size: 1.8rem;
         }
-        
+
         .nav-link {
             font-weight: 600;
             color: var(--text-dark) !important;
@@ -115,7 +129,7 @@
             position: relative;
             transition: var(--transition);
         }
-        
+
         .nav-link::after {
             content: '';
             position: absolute;
@@ -127,17 +141,17 @@
             transition: var(--transition);
             transform: translateX(-50%);
         }
-        
+
         .nav-link:hover,
         .nav-link.active {
             color: var(--primary-blue) !important;
         }
-        
+
         .nav-link:hover::after,
         .nav-link.active::after {
             width: 80%;
         }
-        
+
         .btn-agendar {
             background: linear-gradient(135deg, var(--coral), #feb47b);
             color: var(--white) !important;
@@ -148,12 +162,12 @@
             box-shadow: 0 4px 15px rgba(255, 126, 95, 0.4);
             transition: var(--transition);
         }
-        
+
         .btn-agendar:hover {
             transform: translateY(-2px);
             box-shadow: 0 6px 20px rgba(255, 126, 95, 0.6);
         }
-        
+
         /* ============================================
            HERO SECTION
         ============================================ */
@@ -163,13 +177,13 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                        url('https://images.pexels.com/photos/3845553/pexels-photo-3845553.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080') center/cover no-repeat;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('https://images.pexels.com/photos/3845553/pexels-photo-3845553.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080') center/cover no-repeat;
             background-attachment: fixed;
             color: var(--white);
             text-align: center;
         }
-        
+
         .hero-content h1 {
             font-size: 3.5rem;
             font-weight: 800;
@@ -177,14 +191,14 @@
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
             animation: fadeInUp 1s ease;
         }
-        
+
         .hero-content p {
             font-size: 1.5rem;
             margin-bottom: 2rem;
             font-weight: 300;
             animation: fadeInUp 1.2s ease;
         }
-        
+
         .hero-buttons {
             display: flex;
             gap: 1rem;
@@ -192,7 +206,7 @@
             flex-wrap: wrap;
             animation: fadeInUp 1.4s ease;
         }
-        
+
         .btn-primary-custom {
             background: linear-gradient(135deg, var(--coral), #feb47b);
             color: var(--white);
@@ -204,13 +218,13 @@
             box-shadow: 0 4px 15px rgba(255, 126, 95, 0.4);
             transition: var(--transition);
         }
-        
+
         .btn-primary-custom:hover {
             transform: translateY(-3px);
             box-shadow: 0 6px 25px rgba(255, 126, 95, 0.6);
             color: var(--white);
         }
-        
+
         .btn-secondary-custom {
             background: transparent;
             color: var(--white);
@@ -221,13 +235,13 @@
             font-size: 1.1rem;
             transition: var(--transition);
         }
-        
+
         .btn-secondary-custom:hover {
             background: var(--white);
             color: var(--primary-blue);
             transform: translateY(-3px);
         }
-        
+
         .scroll-down {
             position: absolute;
             bottom: 30px;
@@ -236,35 +250,43 @@
             cursor: pointer;
             animation: bounce 2s infinite;
         }
-        
+
         .scroll-down i {
             font-size: 2rem;
             color: var(--white);
         }
-        
+
         @keyframes fadeInUp {
             from {
                 opacity: 0;
                 transform: translateY(30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
             }
         }
-        
+
         @keyframes bounce {
-            0%, 20%, 50%, 80%, 100% {
+
+            0%,
+            20%,
+            50%,
+            80%,
+            100% {
                 transform: translateX(-50%) translateY(0);
             }
+
             40% {
                 transform: translateX(-50%) translateY(-10px);
             }
+
             60% {
                 transform: translateX(-50%) translateY(-5px);
             }
         }
-        
+
         /* ============================================
            SERVICES SECTION
         ============================================ */
@@ -272,12 +294,12 @@
             padding: 5rem 0;
             background: var(--light-gray);
         }
-        
+
         .section-title {
             text-align: center;
             margin-bottom: 3rem;
         }
-        
+
         .section-title h2 {
             font-size: 2.5rem;
             font-weight: 800;
@@ -286,7 +308,7 @@
             display: inline-block;
             padding-bottom: 1rem;
         }
-        
+
         .section-title h2::after {
             content: '';
             position: absolute;
@@ -298,13 +320,13 @@
             background: linear-gradient(90deg, var(--coral), var(--primary-blue));
             border-radius: 2px;
         }
-        
+
         .section-title p {
             font-size: 1.1rem;
             color: var(--dark-gray);
             margin-top: 1rem;
         }
-        
+
         .service-card {
             background: var(--white);
             border-radius: 15px;
@@ -316,13 +338,13 @@
             height: 100%;
             border: 2px solid transparent;
         }
-        
+
         .service-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
             border-color: var(--coral);
         }
-        
+
         .service-icon {
             width: 80px;
             height: 80px;
@@ -334,28 +356,28 @@
             margin: 0 auto 1.5rem;
             transition: var(--transition);
         }
-        
+
         .service-card:hover .service-icon {
             background: linear-gradient(135deg, var(--coral), #feb47b);
             transform: scale(1.1) rotate(5deg);
         }
-        
+
         .service-icon i {
             font-size: 2rem;
             color: var(--white);
         }
-        
+
         .service-card h3 {
             font-size: 1.4rem;
             margin-bottom: 1rem;
             color: var(--primary-blue);
         }
-        
+
         .service-card p {
             color: var(--dark-gray);
             margin-bottom: 1rem;
         }
-        
+
         .btn-saiba-mais {
             background: transparent;
             color: var(--coral);
@@ -365,12 +387,12 @@
             font-weight: 600;
             transition: var(--transition);
         }
-        
+
         .btn-saiba-mais:hover {
             background: var(--coral);
             color: var(--white);
         }
-        
+
         /* ============================================
            ABOUT SECTION
         ============================================ */
@@ -378,7 +400,7 @@
             padding: 5rem 0;
             background: var(--white);
         }
-        
+
         .video-placeholder {
             width: 100%;
             height: 400px;
@@ -391,7 +413,7 @@
             overflow: hidden;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
         }
-        
+
         .video-placeholder::before {
             content: '';
             position: absolute;
@@ -402,7 +424,7 @@
             background: url('https://images.pexels.com/photos/3845623/pexels-photo-3845623.jpeg?auto=compress&cs=tinysrgb&w=800') center/cover;
             opacity: 0.3;
         }
-        
+
         .play-button {
             width: 80px;
             height: 80px;
@@ -416,40 +438,40 @@
             position: relative;
             z-index: 2;
         }
-        
+
         .play-button:hover {
             transform: scale(1.1);
             background: var(--white);
         }
-        
+
         .play-button i {
             font-size: 2rem;
             color: var(--white);
             margin-left: 5px;
         }
-        
+
         .play-button:hover i {
             color: var(--coral);
         }
-        
+
         .about-content h2 {
             font-size: 2.5rem;
             color: var(--primary-blue);
             margin-bottom: 1.5rem;
         }
-        
+
         .about-content p {
             font-size: 1.1rem;
             color: var(--dark-gray);
             margin-bottom: 1.5rem;
             line-height: 1.8;
         }
-        
+
         .benefits-list {
             list-style: none;
             padding: 0;
         }
-        
+
         .benefits-list li {
             padding: 0.8rem 0;
             font-size: 1.1rem;
@@ -458,20 +480,20 @@
             align-items: center;
             gap: 1rem;
         }
-        
+
         .benefits-list i {
             color: var(--coral);
             font-size: 1.3rem;
             min-width: 25px;
         }
-        
+
         .stats-container {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
             gap: 2rem;
             margin-top: 3rem;
         }
-        
+
         .stat-item {
             text-align: center;
             padding: 1.5rem;
@@ -479,26 +501,26 @@
             border-radius: 15px;
             transition: var(--transition);
         }
-        
+
         .stat-item:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
         }
-        
+
         .stat-number {
             font-size: 2.5rem;
             font-weight: 800;
             color: var(--primary-blue);
             font-family: var(--font-heading);
         }
-        
+
         .stat-label {
             font-size: 0.95rem;
             color: var(--dark-gray);
             font-weight: 600;
             margin-top: 0.5rem;
         }
-        
+
         /* ============================================
            TEAM SECTION
         ============================================ */
@@ -506,7 +528,7 @@
             padding: 5rem 0;
             background: var(--light-gray);
         }
-        
+
         .team-card {
             background: var(--white);
             border-radius: 15px;
@@ -515,46 +537,46 @@
             transition: var(--transition);
             height: 100%;
         }
-        
+
         .team-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
         }
-        
+
         .team-image {
             width: 100%;
             height: 300px;
             object-fit: cover;
             transition: var(--transition);
         }
-        
+
         .team-card:hover .team-image {
             transform: scale(1.05);
         }
-        
+
         .team-info {
             padding: 1.5rem;
             text-align: center;
         }
-        
+
         .team-info h4 {
             font-size: 1.4rem;
             color: var(--primary-blue);
             margin-bottom: 0.5rem;
         }
-        
+
         .team-specialty {
             color: var(--coral);
             font-weight: 600;
             font-size: 1rem;
             margin-bottom: 1rem;
         }
-        
+
         .team-info p {
             color: var(--dark-gray);
             font-size: 0.95rem;
         }
-        
+
         /* Carousel customization */
         .carousel-control-prev-icon,
         .carousel-control-next-icon {
@@ -562,7 +584,7 @@
             border-radius: 50%;
             padding: 1.5rem;
         }
-        
+
         /* ============================================
            FAQ SECTION
         ============================================ */
@@ -570,7 +592,7 @@
             padding: 5rem 0;
             background: var(--white);
         }
-        
+
         .faq-item {
             background: var(--light-gray);
             border-radius: 10px;
@@ -578,7 +600,7 @@
             overflow: hidden;
             transition: var(--transition);
         }
-        
+
         .faq-question {
             padding: 1.5rem;
             cursor: pointer;
@@ -590,37 +612,37 @@
             color: var(--primary-blue);
             transition: var(--transition);
         }
-        
+
         .faq-question:hover {
             background: var(--soft-green);
         }
-        
+
         .faq-question i {
             transition: var(--transition);
             color: var(--coral);
         }
-        
+
         .faq-question.active i {
             transform: rotate(180deg);
         }
-        
+
         .faq-answer {
             max-height: 0;
             overflow: hidden;
             transition: max-height 0.3s ease;
             padding: 0 1.5rem;
         }
-        
+
         .faq-answer.show {
             max-height: 500px;
             padding: 0 1.5rem 1.5rem;
         }
-        
+
         .faq-answer p {
             color: var(--dark-gray);
             line-height: 1.8;
         }
-        
+
         /* ============================================
            GALLERY SECTION
         ============================================ */
@@ -628,13 +650,13 @@
             padding: 5rem 0;
             background: var(--light-gray);
         }
-        
+
         .gallery-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 1.5rem;
         }
-        
+
         .gallery-item {
             position: relative;
             overflow: hidden;
@@ -642,14 +664,14 @@
             cursor: pointer;
             height: 300px;
         }
-        
+
         .gallery-item img {
             width: 100%;
             height: 100%;
             object-fit: cover;
             transition: var(--transition);
         }
-        
+
         .gallery-overlay {
             position: absolute;
             top: 0;
@@ -663,20 +685,20 @@
             opacity: 0;
             transition: var(--transition);
         }
-        
+
         .gallery-item:hover .gallery-overlay {
             opacity: 1;
         }
-        
+
         .gallery-item:hover img {
             transform: scale(1.1);
         }
-        
+
         .gallery-overlay i {
             font-size: 3rem;
             color: var(--white);
         }
-        
+
         /* ============================================
            CONTACT SECTION
         ============================================ */
@@ -684,37 +706,37 @@
             padding: 5rem 0;
             background: var(--white);
         }
-        
+
         .contact-form {
             background: var(--light-gray);
             padding: 2.5rem;
             border-radius: 15px;
             box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
         }
-        
+
         .form-control {
             border: 2px solid #dee2e6;
             padding: 0.8rem 1rem;
             border-radius: 10px;
             transition: var(--transition);
         }
-        
+
         .form-control:focus {
             border-color: var(--primary-blue);
             box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
         }
-        
+
         .form-control.error {
             border-color: #dc3545;
         }
-        
+
         .error-message {
             color: #dc3545;
             font-size: 0.875rem;
             margin-top: 0.25rem;
             display: none;
         }
-        
+
         .success-message {
             background: var(--soft-green);
             color: #155724;
@@ -723,7 +745,7 @@
             margin-bottom: 1rem;
             display: none;
         }
-        
+
         .btn-submit {
             width: 100%;
             background: linear-gradient(135deg, var(--primary-blue), var(--dark-blue));
@@ -735,29 +757,29 @@
             font-size: 1.1rem;
             transition: var(--transition);
         }
-        
+
         .btn-submit:hover {
             transform: translateY(-2px);
             box-shadow: 0 6px 20px rgba(13, 110, 253, 0.4);
             background: linear-gradient(135deg, var(--dark-blue), var(--primary-blue));
         }
-        
+
         .btn-submit.loading {
             pointer-events: none;
             opacity: 0.7;
         }
-        
+
         .contact-info {
             padding: 2rem;
         }
-        
+
         .contact-item {
             display: flex;
             align-items: start;
             gap: 1.5rem;
             margin-bottom: 2rem;
         }
-        
+
         .contact-icon {
             width: 50px;
             height: 50px;
@@ -768,36 +790,36 @@
             justify-content: center;
             flex-shrink: 0;
         }
-        
+
         .contact-icon i {
             font-size: 1.3rem;
             color: var(--white);
         }
-        
+
         .contact-details h4 {
             font-size: 1.2rem;
             color: var(--primary-blue);
             margin-bottom: 0.5rem;
         }
-        
+
         .contact-details p {
             color: var(--dark-gray);
             margin: 0;
         }
-        
+
         .map-container {
             margin-top: 3rem;
             border-radius: 15px;
             overflow: hidden;
             box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
         }
-        
+
         .map-container iframe {
             width: 100%;
             height: 400px;
             border: none;
         }
-        
+
         /* ============================================
            FOOTER SECTION
         ============================================ */
@@ -806,44 +828,44 @@
             color: var(--white);
             padding: 3rem 0 1rem;
         }
-        
+
         .footer-section h5 {
             font-size: 1.3rem;
             margin-bottom: 1.5rem;
             color: var(--coral);
         }
-        
+
         .footer-links {
             list-style: none;
             padding: 0;
         }
-        
+
         .footer-links li {
             margin-bottom: 0.8rem;
         }
-        
+
         .footer-links a {
             color: #adb5bd;
             text-decoration: none;
             transition: var(--transition);
             display: inline-block;
         }
-        
+
         .footer-links a:hover {
             color: var(--white);
             transform: translateX(5px);
         }
-        
+
         .footer-links i {
             color: var(--coral);
             margin-right: 0.5rem;
         }
-        
+
         .social-links {
             display: flex;
             gap: 1rem;
         }
-        
+
         .social-icon {
             width: 40px;
             height: 40px;
@@ -855,13 +877,13 @@
             color: var(--white);
             transition: var(--transition);
         }
-        
+
         .social-icon:hover {
             background: var(--coral);
             transform: translateY(-3px);
             color: var(--white);
         }
-        
+
         .footer-bottom {
             border-top: 1px solid rgba(255, 255, 255, 0.1);
             margin-top: 2rem;
@@ -869,7 +891,7 @@
             text-align: center;
             color: #adb5bd;
         }
-        
+
         /* ============================================
            WHATSAPP FLOATING BUTTON
         ============================================ */
@@ -892,21 +914,24 @@
             z-index: 1000;
             animation: pulse 2s infinite;
         }
-        
+
         .whatsapp-float:hover {
             transform: scale(1.1);
             box-shadow: 0 6px 30px rgba(37, 211, 102, 0.7);
         }
-        
+
         @keyframes pulse {
-            0%, 100% {
+
+            0%,
+            100% {
                 box-shadow: 0 4px 20px rgba(37, 211, 102, 0.5);
             }
+
             50% {
                 box-shadow: 0 4px 30px rgba(37, 211, 102, 0.8);
             }
         }
-        
+
         /* ============================================
            MODAL CUSTOMIZATION
         ============================================ */
@@ -914,21 +939,21 @@
             border-radius: 15px;
             border: none;
         }
-        
+
         .modal-header {
             background: linear-gradient(135deg, var(--primary-blue), var(--dark-blue));
             color: var(--white);
             border-radius: 15px 15px 0 0;
         }
-        
+
         .modal-header .btn-close {
             filter: brightness(0) invert(1);
         }
-        
+
         .modal-body {
             padding: 2rem;
         }
-        
+
         /* ============================================
            RESPONSIVE BREAKPOINTS
         ============================================ */
@@ -936,56 +961,56 @@
             .hero-content h1 {
                 font-size: 2.5rem;
             }
-            
+
             .hero-content p {
                 font-size: 1.2rem;
             }
-            
+
             .section-title h2 {
                 font-size: 2rem;
             }
-            
+
             .about-content {
                 margin-top: 2rem;
             }
-            
+
             .stats-container {
                 grid-template-columns: repeat(2, 1fr);
             }
         }
-        
+
         @media (max-width: 768px) {
             .hero-content h1 {
                 font-size: 2rem;
             }
-            
+
             .hero-content p {
                 font-size: 1rem;
             }
-            
+
             .hero-buttons {
                 flex-direction: column;
                 align-items: center;
             }
-            
+
             .btn-primary-custom,
             .btn-secondary-custom {
                 width: 100%;
                 max-width: 300px;
             }
-            
+
             .service-card {
                 margin-bottom: 1.5rem;
             }
-            
+
             .video-placeholder {
                 height: 300px;
             }
-            
+
             .stats-container {
                 grid-template-columns: 1fr;
             }
-            
+
             .whatsapp-float {
                 bottom: 20px;
                 right: 20px;
@@ -994,7 +1019,7 @@
                 font-size: 1.5rem;
             }
         }
-        
+
         /* ============================================
            LOADING SPINNER
         ============================================ */
@@ -1007,11 +1032,13 @@
             border-top-color: var(--white);
             animation: spin 1s linear infinite;
         }
-        
+
         @keyframes spin {
-            to { transform: rotate(360deg); }
+            to {
+                transform: rotate(360deg);
+            }
         }
-        
+
         /* ============================================
            UTILITY CLASSES
         ============================================ */
@@ -1019,11 +1046,11 @@
             opacity: 0;
             transition: opacity 0.3s;
         }
-        
+
         .lazy-load.loaded {
             opacity: 1;
         }
-        
+
         /* ============================================
            ACCESSIBILITY
         ============================================ */
@@ -1038,13 +1065,14 @@
             white-space: nowrap;
             border-width: 0;
         }
-        
+
         :focus-visible {
             outline: 2px solid var(--coral);
             outline-offset: 2px;
         }
     </style>
 </head>
+
 <body>
 
     <!-- ============================================
@@ -1056,11 +1084,12 @@
                 <i class="fas fa-tooth" aria-hidden="true"></i>
                 <span>Sorriso Perfeito</span>
             </a>
-            
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            
+
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto align-items-center">
                     <li class="nav-item">
@@ -1079,7 +1108,8 @@
                         <a class="nav-link" href="#contato">Contato</a>
                     </li>
                     <li class="nav-item">
-                        <button class="btn btn-agendar" onclick="openWhatsApp()" aria-label="Agendar consulta pelo WhatsApp">
+                        <button class="btn btn-agendar" onclick="openWhatsApp()"
+                            aria-label="Agendar consulta pelo WhatsApp">
                             Agendar Consulta
                         </button>
                     </li>
@@ -1108,7 +1138,8 @@
                 </div>
             </div>
         </div>
-        <div class="scroll-down" onclick="scrollToSection('#servicos')" role="button" tabindex="0" aria-label="Rolar para seção de serviços">
+        <div class="scroll-down" onclick="scrollToSection('#servicos')" role="button" tabindex="0"
+            aria-label="Rolar para seção de serviços">
             <i class="fas fa-chevron-down" aria-hidden="true"></i>
         </div>
     </section>
@@ -1122,7 +1153,7 @@
                 <h2>Tratamentos Especializados</h2>
                 <p>Oferecemos uma gama completa de serviços odontológicos premium</p>
             </div>
-            
+
             <div class="row g-4">
                 <!-- Service 1: Implantes Dentários -->
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
@@ -1131,13 +1162,16 @@
                             <i class="fas fa-tooth" aria-hidden="true"></i>
                         </div>
                         <h3>Implantes Dentários</h3>
-                        <p>Recupere seu sorriso com implantes de alta tecnologia. Procedimento indolor com resultados permanentes e naturais.</p>
-                        <button class="btn btn-saiba-mais" onclick="openServiceModal('Implantes Dentários', 'Nossos implantes dentários utilizam tecnologia de última geração, garantindo osseointegração perfeita e resultados duradouros. Com taxa de sucesso de 98%, você terá dentes que parecem e funcionam como naturais.')" aria-label="Saiba mais sobre implantes dentários">
+                        <p>Recupere seu sorriso com implantes de alta tecnologia. Procedimento indolor com resultados
+                            permanentes e naturais.</p>
+                        <button class="btn btn-saiba-mais"
+                            onclick="openServiceModal('Implantes Dentários', 'Nossos implantes dentários utilizam tecnologia de última geração, garantindo osseointegração perfeita e resultados duradouros. Com taxa de sucesso de 98%, você terá dentes que parecem e funcionam como naturais.')"
+                            aria-label="Saiba mais sobre implantes dentários">
                             Saiba Mais
                         </button>
                     </div>
                 </div>
-                
+
                 <!-- Service 2: Clareamento Dental -->
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="service-card">
@@ -1145,13 +1179,16 @@
                             <i class="fas fa-star" aria-hidden="true"></i>
                         </div>
                         <h3>Clareamento Dental</h3>
-                        <p>Clareamento profissional com resultados visíveis desde a primeira sessão. Sorriso até 8 tons mais branco.</p>
-                        <button class="btn btn-saiba-mais" onclick="openServiceModal('Clareamento Dental', 'Nosso clareamento a laser é seguro, rápido e eficaz. Em apenas uma sessão, você pode clarear seus dentes em até 8 tons. Utilizamos produtos de última geração que não agridem o esmalte dental.')" aria-label="Saiba mais sobre clareamento dental">
+                        <p>Clareamento profissional com resultados visíveis desde a primeira sessão. Sorriso até 8 tons
+                            mais branco.</p>
+                        <button class="btn btn-saiba-mais"
+                            onclick="openServiceModal('Clareamento Dental', 'Nosso clareamento a laser é seguro, rápido e eficaz. Em apenas uma sessão, você pode clarear seus dentes em até 8 tons. Utilizamos produtos de última geração que não agridem o esmalte dental.')"
+                            aria-label="Saiba mais sobre clareamento dental">
                             Saiba Mais
                         </button>
                     </div>
                 </div>
-                
+
                 <!-- Service 3: Ortodontia Invisível -->
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                     <div class="service-card">
@@ -1159,13 +1196,16 @@
                             <i class="fas fa-smile" aria-hidden="true"></i>
                         </div>
                         <h3>Ortodontia Invisível</h3>
-                        <p>Alinhadores transparentes para corrigir seu sorriso discretamente. Conforto e estética sem abrir mão dos resultados.</p>
-                        <button class="btn btn-saiba-mais" onclick="openServiceModal('Ortodontia Invisível', 'Os alinhadores invisíveis são a solução moderna para correção ortodôntica. Removíveis, confortáveis e praticamente invisíveis, você pode corrigir seu sorriso sem ninguém perceber.')" aria-label="Saiba mais sobre ortodontia invisível">
+                        <p>Alinhadores transparentes para corrigir seu sorriso discretamente. Conforto e estética sem
+                            abrir mão dos resultados.</p>
+                        <button class="btn btn-saiba-mais"
+                            onclick="openServiceModal('Ortodontia Invisível', 'Os alinhadores invisíveis são a solução moderna para correção ortodôntica. Removíveis, confortáveis e praticamente invisíveis, você pode corrigir seu sorriso sem ninguém perceber.')"
+                            aria-label="Saiba mais sobre ortodontia invisível">
                             Saiba Mais
                         </button>
                     </div>
                 </div>
-                
+
                 <!-- Service 4: Lentes de Contato Dental -->
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
                     <div class="service-card">
@@ -1173,13 +1213,16 @@
                             <i class="fas fa-gem" aria-hidden="true"></i>
                         </div>
                         <h3>Lentes de Contato</h3>
-                        <p>Transformação total do seu sorriso com lâminas ultrafinas de porcelana. Resultado natural e duradouro.</p>
-                        <button class="btn btn-saiba-mais" onclick="openServiceModal('Lentes de Contato Dental', 'As facetas de porcelana ultrafinas corrigem cor, formato e alinhamento dos dentes. Com espessura de apenas 0.2mm, proporcionam um sorriso perfeito sem desgaste excessivo dos dentes.')" aria-label="Saiba mais sobre lentes de contato dental">
+                        <p>Transformação total do seu sorriso com lâminas ultrafinas de porcelana. Resultado natural e
+                            duradouro.</p>
+                        <button class="btn btn-saiba-mais"
+                            onclick="openServiceModal('Lentes de Contato Dental', 'As facetas de porcelana ultrafinas corrigem cor, formato e alinhamento dos dentes. Com espessura de apenas 0.2mm, proporcionam um sorriso perfeito sem desgaste excessivo dos dentes.')"
+                            aria-label="Saiba mais sobre lentes de contato dental">
                             Saiba Mais
                         </button>
                     </div>
                 </div>
-                
+
                 <!-- Service 5: Odontopediatria -->
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
                     <div class="service-card">
@@ -1187,13 +1230,16 @@
                             <i class="fas fa-child" aria-hidden="true"></i>
                         </div>
                         <h3>Odontopediatria</h3>
-                        <p>Cuidado especial com a saúde bucal infantil. Ambiente lúdico e profissionais especializados em crianças.</p>
-                        <button class="btn btn-saiba-mais" onclick="openServiceModal('Odontopediatria', 'Nossa equipe de odontopediatras cria uma experiência positiva para as crianças, estabelecendo bons hábitos de higiene bucal desde cedo. Atendimento acolhedor em ambiente especialmente preparado para os pequenos.')" aria-label="Saiba mais sobre odontopediatria">
+                        <p>Cuidado especial com a saúde bucal infantil. Ambiente lúdico e profissionais especializados
+                            em crianças.</p>
+                        <button class="btn btn-saiba-mais"
+                            onclick="openServiceModal('Odontopediatria', 'Nossa equipe de odontopediatras cria uma experiência positiva para as crianças, estabelecendo bons hábitos de higiene bucal desde cedo. Atendimento acolhedor em ambiente especialmente preparado para os pequenos.')"
+                            aria-label="Saiba mais sobre odontopediatria">
                             Saiba Mais
                         </button>
                     </div>
                 </div>
-                
+
                 <!-- Service 6: Harmonização Facial -->
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                     <div class="service-card">
@@ -1201,8 +1247,11 @@
                             <i class="fas fa-spa" aria-hidden="true"></i>
                         </div>
                         <h3>Harmonização Facial</h3>
-                        <p>Procedimentos estéticos faciais para equilibrar e realçar sua beleza natural. Resultados sutis e elegantes.</p>
-                        <button class="btn btn-saiba-mais" onclick="openServiceModal('Harmonização Facial', 'A harmonização orofacial vai além do sorriso. Com aplicação de toxina botulínica e preenchimentos, promovemos equilíbrio estético facial, valorizando sua beleza natural de forma sutil e elegante.')" aria-label="Saiba mais sobre harmonização facial">
+                        <p>Procedimentos estéticos faciais para equilibrar e realçar sua beleza natural. Resultados
+                            sutis e elegantes.</p>
+                        <button class="btn btn-saiba-mais"
+                            onclick="openServiceModal('Harmonização Facial', 'A harmonização orofacial vai além do sorriso. Com aplicação de toxina botulínica e preenchimentos, promovemos equilíbrio estético facial, valorizando sua beleza natural de forma sutil e elegante.')"
+                            aria-label="Saiba mais sobre harmonização facial">
                             Saiba Mais
                         </button>
                     </div>
@@ -1221,26 +1270,27 @@
                     <div class="video-placeholder">
                         <!-- Imagem: https://images.pexels.com/photos/3845623/pexels-photo-3845623.jpeg -->
                         <!-- Termo de busca: "modern dental clinic interior" -->
-                        <div class="play-button" role="button" tabindex="0" aria-label="Reproduzir vídeo sobre a clínica">
+                        <div class="play-button" role="button" tabindex="0"
+                            aria-label="Reproduzir vídeo sobre a clínica">
                             <i class="fas fa-play" aria-hidden="true"></i>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-6" data-aos="fade-left">
                     <div class="about-content">
                         <h2>Excelência em Odontologia desde 2005</h2>
                         <p>
-                            Na <strong>Sorriso Perfeito Odontologia</strong>, combinamos tecnologia de ponta com 
-                            atendimento humanizado para oferecer a melhor experiência odontológica. Nossa missão é 
-                            transformar sorrisos e elevar a autoestima de nossos pacientes através de tratamentos 
+                            Na <strong>Sorriso Perfeito Odontologia</strong>, combinamos tecnologia de ponta com
+                            atendimento humanizado para oferecer a melhor experiência odontológica. Nossa missão é
+                            transformar sorrisos e elevar a autoestima de nossos pacientes através de tratamentos
                             personalizados e resultados excepcionais.
                         </p>
                         <p>
-                            Contamos com uma equipe altamente qualificada e equipamentos de última geração, 
+                            Contamos com uma equipe altamente qualificada e equipamentos de última geração,
                             garantindo procedimentos seguros, confortáveis e eficazes.
                         </p>
-                        
+
                         <ul class="benefits-list">
                             <li>
                                 <i class="fas fa-check-circle" aria-hidden="true"></i>
@@ -1270,7 +1320,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <!-- Stats Counter -->
             <div class="stats-container" data-aos="fade-up">
                 <div class="stat-item">
@@ -1302,190 +1352,117 @@
                 <h2>Nossa Equipe de Especialistas</h2>
                 <p>Profissionais altamente qualificados dedicados ao seu sorriso</p>
             </div>
-            
-            <div id="teamCarousel" class="carousel slide" data-bs-ride="carousel" data-aos="fade-up" data-aos-delay="200">
+
+            <div id="teamCarousel" class="carousel slide" data-bs-ride="carousel" data-aos="fade-up"
+                data-aos-delay="200">
                 <div class="carousel-inner">
                     <!-- Team Member 1 -->
                     <div class="carousel-item active">
                         <div class="row g-4 justify-content-center">
                             <div class="col-lg-4 col-md-6">
                                 <div class="team-card">
-                                    <img src="https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg?auto=compress&cs=tinysrgb&w=800" 
-                                         alt="Dra. Ana Paula Silva - Implantodontista" 
-                                         class="team-image lazy-load"
-                                         loading="lazy">
+                                    <img src="https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg?auto=compress&cs=tinysrgb&w=800"
+                                        alt="Dra. Ana Paula Silva - Implantodontista" class="team-image lazy-load"
+                                        loading="lazy">
                                     <!-- Termo de busca: "female dentist professional" -->
                                     <div class="team-info">
                                         <h4>Dra. Ana Paula Silva</h4>
                                         <div class="team-specialty">Implantodontista</div>
-                                        <p>Especialista em implantes dentários com formação internacional. Mais de 3.000 cirurgias realizadas com índice de sucesso de 99%.</p>
+                                        <p>Especialista em implantes dentários com formação internacional. Mais de 3.000
+                                            cirurgias realizadas com índice de sucesso de 99%.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="team-card">
-                                    <img src="https://images.pexels.com/photos/6627387/pexels-photo-6627387.jpeg?auto=compress&cs=tinysrgb&w=800" 
-                                         alt="Dr. Roberto Mendes - Ortodontista" 
-                                         class="team-image lazy-load"
-                                         loading="lazy">
+                                    <img src="https://images.pexels.com/photos/6627447/pexels-photo-6627447.jpeg?auto=compress&cs=tinysrgb&w=800"
+                                        alt="Dr. Roberto Mendes - Ortodontista" class="team-image lazy-load"
+                                        loading="lazy">
                                     <!-- Termo de busca: "male dentist smiling" -->
                                     <div class="team-info">
                                         <h4>Dr. Roberto Mendes</h4>
                                         <div class="team-specialty">Ortodontista</div>
-                                        <p>Mestre em Ortodontia Invisível. Especialista em transformações estéticas através de alinhadores e aparelhos de última geração.</p>
+                                        <p>Mestre em Ortodontia Invisível. Especialista em transformações estéticas
+                                            através de alinhadores e aparelhos de última geração.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="team-card">
-                                    <img src="https://images.pexels.com/photos/5340267/pexels-photo-5340267.jpeg?auto=compress&cs=tinysrgb&w=800" 
-                                         alt="Dra. Carolina Ferreira - Odontopediatra" 
-                                         class="team-image lazy-load"
-                                         loading="lazy">
+                                    <img src="https://images.pexels.com/photos/12917343/pexels-photo-12917343.jpeg?auto=compress&cs=tinysrgb&w=800"
+                                        alt="Dra. Carolina Ferreira - Odontopediatra" class="team-image lazy-load"
+                                        loading="lazy">
                                     <!-- Termo de busca: "female dentist children" -->
                                     <div class="team-info">
                                         <h4>Dra. Carolina Ferreira</h4>
                                         <div class="team-specialty">Odontopediatra</div>
-                                        <p>Especialista em atendimento infantil com abordagem lúdica. Cria experiências positivas para crianças desde a primeira consulta.</p>
+                                        <p>Especialista em atendimento infantil com abordagem lúdica. Cria experiências
+                                            positivas para crianças desde a primeira consulta.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+
                     <!-- Team Member 2 -->
                     <div class="carousel-item">
                         <div class="row g-4 justify-content-center">
                             <div class="col-lg-4 col-md-6">
                                 <div class="team-card">
-                                    <img src="https://images.pexels.com/photos/6627581/pexels-photo-6627581.jpeg?auto=compress&cs=tinysrgb&w=800" 
-                                         alt="Dr. Fernando Costa - Periodontista" 
-                                         class="team-image lazy-load"
-                                         loading="lazy">
+                                    <img src="https://images.pexels.com/photos/4270087/pexels-photo-4270087.jpeg?auto=compress&cs=tinysrgb&w=800"
+                                        alt="Dr. Fernando Costa - Periodontista" class="team-image lazy-load"
+                                        loading="lazy">
                                     <!-- Termo de busca: "dentist professional portrait" -->
                                     <div class="team-info">
                                         <h4>Dr. Fernando Costa</h4>
                                         <div class="team-specialty">Periodontista</div>
-                                        <p>Especialista em saúde gengival e estética do sorriso. Doutor em Periodontia com publicações internacionais.</p>
+                                        <p>Especialista em saúde gengival e estética do sorriso. Doutor em Periodontia
+                                            com publicações internacionais.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="team-card">
-                                    <img src="https://images.pexels.com/photos/5340270/pexels-photo-5340270.jpeg?auto=compress&cs=tinysrgb&w=800" 
-                                         alt="Dra. Juliana Martins - Dentística" 
-                                         class="team-image lazy-load"
-                                         loading="lazy">
+                                    <img src="https://images.pexels.com/photos/4269494/pexels-photo-4269494.jpeg?auto=compress&cs=tinysrgb&w=800"
+                                        alt="Dra. Fabiula Martins - Dentística" class="team-image lazy-load"
+                                        loading="lazy">
                                     <!-- Termo de busca: "female dentist clinic" -->
                                     <div class="team-info">
-                                        <h4>Dra. Juliana Martins</h4>
+                                        <h4>Dra. Fabiula Martins</h4>
                                         <div class="team-specialty">Dentística e Estética</div>
-                                        <p>Especialista em lentes de contato e facetas de porcelana. Artista do sorriso com mais de 2.000 casos transformados.</p>
+                                        <p>Especialista em lentes de contato e facetas de porcelana. Artista do sorriso
+                                            com mais de 2.000 casos transformados.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="team-card">
-                                    <img src="https://images.pexels.com/photos/6627564/pexels-photo-6627564.jpeg?auto=compress&cs=tinysrgb&w=800" 
-                                         alt="Dr. Marcelo Santos - Cirurgião Bucomaxilofacial" 
-                                         class="team-image lazy-load"
-                                         loading="lazy">
+                                    <img src="https://images.pexels.com/photos/6812570/pexels-photo-6812570.jpeg?auto=compress&cs=tinysrgb&w=800"
+                                        alt="Dr. Marcelo Santos - Cirurgião Bucomaxilofacial"
+                                        class="team-image lazy-load" loading="lazy">
                                     <!-- Termo de busca: "dentist surgeon professional" -->
                                     <div class="team-info">
                                         <h4>Dr. Marcelo Santos</h4>
                                         <div class="team-specialty">Cirurgião Bucomaxilofacial</div>
-                                        <p>Especialista em cirurgias complexas e harmonização orofacial. Referência em procedimentos estéticos faciais.</p>
+                                        <p>Especialista em cirurgias complexas e harmonização orofacial. Referência em
+                                            procedimentos estéticos faciais.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                
-                <button class="carousel-control-prev" type="button" data-bs-target="#teamCarousel" data-bs-slide="prev" aria-label="Profissional anterior">
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#teamCarousel" data-bs-slide="prev"
+                    aria-label="Profissional anterior">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Anterior</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#teamCarousel" data-bs-slide="next" aria-label="Próximo profissional">
+                <button class="carousel-control-next" type="button" data-bs-target="#teamCarousel" data-bs-slide="next"
+                    aria-label="Próximo profissional">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Próximo</span>
                 </button>
-            </div>
-        </div>
-    </section>
-
-    <!-- ============================================
-         FAQ SECTION
-    ============================================ -->
-    <section id="faq">
-        <div class="container">
-            <div class="section-title" data-aos="fade-up">
-                <h2>Perguntas Frequentes</h2>
-                <p>Tire suas dúvidas sobre nossos tratamentos</p>
-            </div>
-            
-            <div class="row justify-content-center">
-                <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-                    <div class="faq-item">
-                        <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
-                            <span>Os procedimentos são dolorosos?</span>
-                            <i class="fas fa-chevron-down" aria-hidden="true"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>Não! Utilizamos anestesia local e técnicas modernas que garantem procedimentos praticamente indolores. Muitos pacientes relatam sentir apenas um leve desconforto. Além disso, oferecemos sedação consciente para casos de ansiedade.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq-item">
-                        <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
-                            <span>Quanto tempo dura um implante dentário?</span>
-                            <i class="fas fa-chevron-down" aria-hidden="true"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>Com os cuidados adequados, um implante dentário pode durar a vida toda. Nossa taxa de sucesso é de 98% após 10 anos. Recomendamos manutenção periódica e boa higiene bucal para garantir a longevidade.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq-item">
-                        <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
-                            <span>Quanto tempo leva o clareamento dental?</span>
-                            <i class="fas fa-chevron-down" aria-hidden="true"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>O clareamento a laser leva cerca de 1 hora por sessão. Os resultados são visíveis imediatamente, com dentes até 8 tons mais brancos. Para clareamento caseiro, o tratamento completo dura de 2 a 4 semanas.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq-item">
-                        <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
-                            <span>Vocês aceitam convênios odontológicos?</span>
-                            <i class="fas fa-chevron-down" aria-hidden="true"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>Sim! Trabalhamos com os principais convênios do mercado: Bradesco Dental, SulAmérica, Amil Dental, MetLife, entre outros. Entre em contato para verificar sua cobertura específica.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq-item">
-                        <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
-                            <span>Posso parcelar o tratamento?</span>
-                            <i class="fas fa-chevron-down" aria-hidden="true"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>Sim! Oferecemos parcelamento em até 12x sem juros no cartão de crédito. Para tratamentos mais extensos, temos opções de financiamento personalizadas. Consulte nossa equipe para mais detalhes.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq-item">
-                        <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
-                            <span>Com que frequência devo ir ao dentista?</span>
-                            <i class="fas fa-chevron-down" aria-hidden="true"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>Recomendamos visitas a cada 6 meses para limpeza profissional e check-up preventivo. A prevenção é fundamental para manter a saúde bucal e evitar problemas futuros. Pacientes com condições específicas podem necessitar de acompanhamento mais frequente.</p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -1496,49 +1473,41 @@
     <section id="galeria">
         <div class="container">
             <div class="section-title" data-aos="fade-up">
-                <h2>Antes & Depois</h2>
+                <h2>Alguns de nossos Clientes</h2>
                 <p>Transformações reais de nossos pacientes</p>
             </div>
-            
+
             <div class="gallery-grid" data-aos="fade-up" data-aos-delay="200">
                 <div class="gallery-item">
-                    <img src="https://images.pexels.com/photos/3779705/pexels-photo-3779705.jpeg?auto=compress&cs=tinysrgb&w=800" 
-                         alt="Resultado de ortodontia" 
-                         class="lazy-load"
-                         loading="lazy">
+                    <img src="https://images.pexels.com/photos/3779705/pexels-photo-3779705.jpeg?auto=compress&cs=tinysrgb&w=800"
+                        alt="Resultado de ortodontia" class="lazy-load" loading="lazy">
                     <!-- Termo de busca: "perfect smile after braces" -->
                     <div class="gallery-overlay">
                         <i class="fas fa-search-plus" aria-hidden="true"></i>
                     </div>
                 </div>
-                
+
                 <div class="gallery-item">
-                    <img src="https://images.pexels.com/photos/3845457/pexels-photo-3845457.jpeg?auto=compress&cs=tinysrgb&w=800" 
-                         alt="Resultado de lentes de contato dental" 
-                         class="lazy-load"
-                         loading="lazy">
+                    <img src="https://images.pexels.com/photos/12934843/pexels-photo-12934843.jpeg?auto=compress&cs=tinysrgb&w=800"
+                        alt="Resultado de lentes de contato dental" class="lazy-load" loading="lazy">
                     <!-- Termo de busca: "dental veneers smile" -->
                     <div class="gallery-overlay">
                         <i class="fas fa-search-plus" aria-hidden="true"></i>
                     </div>
                 </div>
-                
+
                 <div class="gallery-item">
-                    <img src="https://images.pexels.com/photos/3762882/pexels-photo-3762882.jpeg?auto=compress&cs=tinysrgb&w=800" 
-                         alt="Resultado de harmonização facial" 
-                         class="lazy-load"
-                         loading="lazy">
+                    <img src="https://images.pexels.com/photos/12917374/pexels-photo-12917374.jpeg?auto=compress&cs=tinysrgb&w=800"
+                        alt="Resultado de harmonização facial" class="lazy-load" loading="lazy">
                     <!-- Termo de busca: "facial harmony aesthetic" -->
                     <div class="gallery-overlay">
                         <i class="fas fa-search-plus" aria-hidden="true"></i>
                     </div>
                 </div>
-                
+
                 <div class="gallery-item">
-                    <img src="https://images.pexels.com/photos/3845624/pexels-photo-3845624.jpeg?auto=compress&cs=tinysrgb&w=800" 
-                         alt="Resultado de tratamento estético" 
-                         class="lazy-load"
-                         loading="lazy">
+                    <img src="https://images.pexels.com/photos/3845624/pexels-photo-3845624.jpeg?auto=compress&cs=tinysrgb&w=800"
+                        alt="Resultado de tratamento estético" class="lazy-load" loading="lazy">
                     <!-- Termo de busca: "beautiful smile transformation" -->
                     <div class="gallery-overlay">
                         <i class="fas fa-search-plus" aria-hidden="true"></i>
@@ -1547,6 +1516,94 @@
             </div>
         </div>
     </section>
+    <!-- ============================================
+         FAQ SECTION
+    ============================================ -->
+    <section id="faq">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Perguntas Frequentes</h2>
+                <p>Tire suas dúvidas sobre nossos tratamentos</p>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+                    <div class="faq-item">
+                        <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                            <span>Os procedimentos são dolorosos?</span>
+                            <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Não! Utilizamos anestesia local e técnicas modernas que garantem procedimentos
+                                praticamente indolores. Muitos pacientes relatam sentir apenas um leve desconforto. Além
+                                disso, oferecemos sedação consciente para casos de ansiedade.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                            <span>Quanto tempo dura um implante dentário?</span>
+                            <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Com os cuidados adequados, um implante dentário pode durar a vida toda. Nossa taxa de
+                                sucesso é de 98% após 10 anos. Recomendamos manutenção periódica e boa higiene bucal
+                                para garantir a longevidade.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                            <span>Quanto tempo leva o clareamento dental?</span>
+                            <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>O clareamento a laser leva cerca de 1 hora por sessão. Os resultados são visíveis
+                                imediatamente, com dentes até 8 tons mais brancos. Para clareamento caseiro, o
+                                tratamento completo dura de 2 a 4 semanas.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                            <span>Vocês aceitam convênios odontológicos?</span>
+                            <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Sim! Trabalhamos com os principais convênios do mercado: Bradesco Dental, SulAmérica,
+                                Amil Dental, MetLife, entre outros. Entre em contato para verificar sua cobertura
+                                específica.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                            <span>Posso parcelar o tratamento?</span>
+                            <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Sim! Oferecemos parcelamento em até 12x sem juros no cartão de crédito. Para tratamentos
+                                mais extensos, temos opções de financiamento personalizadas. Consulte nossa equipe para
+                                mais detalhes.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                            <span>Com que frequência devo ir ao dentista?</span>
+                            <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Recomendamos visitas a cada 6 meses para limpeza profissional e check-up preventivo. A
+                                prevenção é fundamental para manter a saúde bucal e evitar problemas futuros. Pacientes
+                                com condições específicas podem necessitar de acompanhamento mais frequente.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- ============================================
          CONTACT SECTION
@@ -1557,7 +1614,7 @@
                 <h2>Entre em Contato</h2>
                 <p>Agende sua consulta ou tire suas dúvidas</p>
             </div>
-            
+
             <div class="row g-4">
                 <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
                     <div class="contact-info">
@@ -1570,7 +1627,7 @@
                                 <p>Av. Paulista, 1234 - Bela Vista<br>São Paulo - SP, 01310-100</p>
                             </div>
                         </div>
-                        
+
                         <div class="contact-item">
                             <div class="contact-icon">
                                 <i class="fas fa-phone-alt" aria-hidden="true"></i>
@@ -1580,7 +1637,7 @@
                                 <p>(11) 3456-7890<br>(55) 69 99299-6410 (WhatsApp)</p>
                             </div>
                         </div>
-                        
+
                         <div class="contact-item">
                             <div class="contact-icon">
                                 <i class="fas fa-envelope" aria-hidden="true"></i>
@@ -1590,7 +1647,7 @@
                                 <p>contato@sorrisoperfeito.com.br<br>agendamento@sorrisoperfeito.com.br</p>
                             </div>
                         </div>
-                        
+
                         <div class="contact-item">
                             <div class="contact-icon">
                                 <i class="fas fa-clock" aria-hidden="true"></i>
@@ -1602,19 +1659,19 @@
                         </div>
                     </div>
                 </div>
-                
-                <div class="col-lg-6 d-flex align-items-center justify-content-center" data-aos="fade-left" data-aos-delay="200">
+
+                <div class="col-lg-6 d-flex align-items-center justify-content-center" data-aos="fade-left"
+                    data-aos-delay="200">
                     <div class="text-center w-100">
                         <div class="mb-4">
                             <i class="fab fa-whatsapp" style="font-size: 5rem; color: #25D366;"></i>
                         </div>
                         <h3 class="mb-3" style="color: var(--primary-blue);">Fale Conosco pelo WhatsApp</h3>
-                        <p class="mb-4" style="font-size: 1.1rem; color: var(--dark-gray);">Agende sua consulta ou tire suas dúvidas diretamente pelo WhatsApp. Estamos prontos para atender você!</p>
-                        <a href="https://wa.me/5569992996410?text=Olá! Gostaria de agendar uma consulta na Sorriso Perfeito Odontologia." 
-                           class="btn btn-primary-custom btn-lg" 
-                           target="_blank" 
-                           rel="noopener noreferrer"
-                           style="font-size: 1.3rem; padding: 1.2rem 3rem;">
+                        <p class="mb-4" style="font-size: 1.1rem; color: var(--dark-gray);">Agende sua consulta ou tire
+                            suas dúvidas diretamente pelo WhatsApp. Estamos prontos para atender você!</p>
+                        <a href="https://wa.me/5569992996410?text=Olá! Gostaria de agendar uma consulta na Sorriso Perfeito Odontologia."
+                            class="btn btn-primary-custom btn-lg" target="_blank" rel="noopener noreferrer"
+                            style="font-size: 1.3rem; padding: 1.2rem 3rem;">
                             <i class="fab fa-whatsapp me-2"></i>Conversar no WhatsApp
                         </a>
                         <p class="mt-3" style="color: var(--dark-gray); font-size: 0.95rem;">
@@ -1623,14 +1680,12 @@
                     </div>
                 </div>
             </div>
-            
+
             <!-- Google Maps -->
             <div class="map-container" data-aos="fade-up" data-aos-delay="400">
-                <iframe 
+                <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.097193871869!2d-46.656694484596096!3d-23.564345384681892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr"
-                    allowfullscreen="" 
-                    loading="lazy"
-                    title="Localização da Sorriso Perfeito Odontologia"
+                    allowfullscreen="" loading="lazy" title="Localização da Sorriso Perfeito Odontologia"
                     aria-label="Mapa mostrando a localização da clínica na Av. Paulista, São Paulo">
                 </iframe>
             </div>
@@ -1647,52 +1702,65 @@
                     <div class="footer-section">
                         <h5>Sobre Nós</h5>
                         <p>
-                            A Sorriso Perfeito Odontologia é referência em tratamentos odontológicos premium, 
+                            A Sorriso Perfeito Odontologia é referência em tratamentos odontológicos premium,
                             combinando tecnologia de ponta com atendimento humanizado há mais de 21 anos.
                         </p>
                         <div class="social-links mt-3">
-                            <a href="https://facebook.com" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Visite nossa página no Facebook">
+                            <a href="https://facebook.com" class="social-icon" target="_blank" rel="noopener noreferrer"
+                                aria-label="Visite nossa página no Facebook">
                                 <i class="fab fa-facebook-f" aria-hidden="true"></i>
                             </a>
-                            <a href="https://instagram.com" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Visite nosso perfil no Instagram">
+                            <a href="https://instagram.com" class="social-icon" target="_blank"
+                                rel="noopener noreferrer" aria-label="Visite nosso perfil no Instagram">
                                 <i class="fab fa-instagram" aria-hidden="true"></i>
                             </a>
-                            <a href="https://linkedin.com" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Visite nossa página no LinkedIn">
+                            <a href="https://linkedin.com" class="social-icon" target="_blank" rel="noopener noreferrer"
+                                aria-label="Visite nossa página no LinkedIn">
                                 <i class="fab fa-linkedin-in" aria-hidden="true"></i>
                             </a>
-                            <a href="https://youtube.com" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Visite nosso canal no YouTube">
+                            <a href="https://youtube.com" class="social-icon" target="_blank" rel="noopener noreferrer"
+                                aria-label="Visite nosso canal no YouTube">
                                 <i class="fab fa-youtube" aria-hidden="true"></i>
                             </a>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-2 col-md-6">
                     <div class="footer-section">
                         <h5>Links Rápidos</h5>
                         <ul class="footer-links">
-                            <li><a href="#inicio"><i class="fas fa-chevron-right" aria-hidden="true"></i> Início</a></li>
-                            <li><a href="#servicos"><i class="fas fa-chevron-right" aria-hidden="true"></i> Serviços</a></li>
+                            <li><a href="#inicio"><i class="fas fa-chevron-right" aria-hidden="true"></i> Início</a>
+                            </li>
+                            <li><a href="#servicos"><i class="fas fa-chevron-right" aria-hidden="true"></i> Serviços</a>
+                            </li>
                             <li><a href="#sobre"><i class="fas fa-chevron-right" aria-hidden="true"></i> Sobre</a></li>
-                            <li><a href="#equipe"><i class="fas fa-chevron-right" aria-hidden="true"></i> Equipe</a></li>
-                            <li><a href="#contato"><i class="fas fa-chevron-right" aria-hidden="true"></i> Contato</a></li>
+                            <li><a href="#equipe"><i class="fas fa-chevron-right" aria-hidden="true"></i> Equipe</a>
+                            </li>
+                            <li><a href="#contato"><i class="fas fa-chevron-right" aria-hidden="true"></i> Contato</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-section">
                         <h5>Serviços</h5>
                         <ul class="footer-links">
-                            <li><a href="#servicos"><i class="fas fa-chevron-right" aria-hidden="true"></i> Implantes Dentários</a></li>
-                            <li><a href="#servicos"><i class="fas fa-chevron-right" aria-hidden="true"></i> Clareamento Dental</a></li>
-                            <li><a href="#servicos"><i class="fas fa-chevron-right" aria-hidden="true"></i> Ortodontia Invisível</a></li>
-                            <li><a href="#servicos"><i class="fas fa-chevron-right" aria-hidden="true"></i> Lentes de Contato</a></li>
-                            <li><a href="#servicos"><i class="fas fa-chevron-right" aria-hidden="true"></i> Harmonização Facial</a></li>
+                            <li><a href="#servicos"><i class="fas fa-chevron-right" aria-hidden="true"></i> Implantes
+                                    Dentários</a></li>
+                            <li><a href="#servicos"><i class="fas fa-chevron-right" aria-hidden="true"></i> Clareamento
+                                    Dental</a></li>
+                            <li><a href="#servicos"><i class="fas fa-chevron-right" aria-hidden="true"></i> Ortodontia
+                                    Invisível</a></li>
+                            <li><a href="#servicos"><i class="fas fa-chevron-right" aria-hidden="true"></i> Lentes de
+                                    Contato</a></li>
+                            <li><a href="#servicos"><i class="fas fa-chevron-right" aria-hidden="true"></i> Harmonização
+                                    Facial</a></li>
                         </ul>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-section">
                         <h5>Horário</h5>
@@ -1707,11 +1775,11 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="footer-bottom">
-                <p>&copy; 2026 Sorriso Perfeito Odontologia. Todos os direitos reservados. | 
-                   <a href="#" style="color: var(--coral); text-decoration: none;">Política de Privacidade</a> | 
-                   <a href="#" style="color: var(--coral); text-decoration: none;">Termos de Uso</a>
+                <p>&copy; 2026 Sorriso Perfeito Odontologia. Todos os direitos reservados. |
+                    <a href="#" style="color: var(--coral); text-decoration: none;">Política de Privacidade</a> |
+                    <a href="#" style="color: var(--coral); text-decoration: none;">Termos de Uso</a>
                 </p>
             </div>
         </div>
@@ -1720,11 +1788,8 @@
     <!-- ============================================
          WHATSAPP FLOATING BUTTON
     ============================================ -->
-    <a href="https://wa.me/5569992996410?text=Olá! Gostaria de agendar uma consulta." 
-       class="whatsapp-float" 
-       target="_blank" 
-       rel="noopener noreferrer"
-       aria-label="Entre em contato pelo WhatsApp">
+    <a href="https://wa.me/5569992996410?text=Olá! Gostaria de agendar uma consulta." class="whatsapp-float"
+        target="_blank" rel="noopener noreferrer" aria-label="Entre em contato pelo WhatsApp">
         <i class="fab fa-whatsapp" aria-hidden="true"></i>
     </a>
 
@@ -1743,7 +1808,8 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                    <button type="button" class="btn btn-primary-custom" onclick="openWhatsApp()">Agendar Consulta</button>
+                    <button type="button" class="btn btn-primary-custom" onclick="openWhatsApp()">Agendar
+                        Consulta</button>
                 </div>
             </div>
         </div>
@@ -1752,129 +1818,134 @@
     <!-- ============================================
          SCRIPTS
     ============================================ -->
-    
+
     <!-- jQuery (load first) -->
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
     <!-- jQuery Fallback -->
     <script>
         window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"><\/script>')
     </script>
-    
+
     <!-- jQuery Mask Plugin -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"
+        integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <!-- Bootstrap Bundle (includes Popper) -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
     <!-- AOS Animation Library -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    
+
     <!-- Custom JavaScript -->
     <script>
         // ============================================
         // DOCUMENT READY
         // ============================================
-        $(document).ready(function() {
+        $(document).ready(function () {
             // Initialize AOS
             AOS.init({
                 duration: 1000,
                 once: true,
                 offset: 100
             });
-            
+
             // Initialize Phone Mask
             $('#phone').mask('(00) 00000-0000');
-            
+
             // Lazy Load Images
             lazyLoadImages();
-            
+
             // Initialize Counters
             initCounters();
-            
+
             // FAQ Toggle
             initFAQ();
-            
+
             // Smooth Scroll
             initSmoothScroll();
-            
+
             // Navbar Scroll Effect
             initNavbarScroll();
-            
+
             // Form Validation
             initFormValidation();
-            
+
             // Gallery Lightbox
             initGalleryLightbox();
         });
-        
+
         // ============================================
         // SMOOTH SCROLL
         // ============================================
         function initSmoothScroll() {
-            $('a[href^="#"]').on('click', function(e) {
+            $('a[href^="#"]').on('click', function (e) {
                 const target = $(this.getAttribute('href'));
                 if (target.length) {
                     e.preventDefault();
                     $('html, body').stop().animate({
                         scrollTop: target.offset().top - 80
                     }, 1000);
-                    
+
                     // Update active nav link
                     $('.nav-link').removeClass('active');
                     $(this).addClass('active');
-                    
+
                     // Close mobile menu
                     $('.navbar-collapse').collapse('hide');
                 }
             });
         }
-        
+
         function scrollToSection(selector) {
             $('html, body').animate({
                 scrollTop: $(selector).offset().top - 80
             }, 1000);
         }
-        
+
         // ============================================
         // NAVBAR SCROLL EFFECT
         // ============================================
         function initNavbarScroll() {
-            $(window).on('scroll', function() {
+            $(window).on('scroll', function () {
                 if ($(window).scrollTop() > 100) {
                     $('.navbar').addClass('scrolled');
                 } else {
                     $('.navbar').removeClass('scrolled');
                 }
-                
+
                 // Update active section in navbar
                 updateActiveSection();
             });
         }
-        
+
         function updateActiveSection() {
             const scrollPos = $(window).scrollTop() + 100;
-            
-            $('section').each(function() {
+
+            $('section').each(function () {
                 const section = $(this);
                 const sectionTop = section.offset().top;
                 const sectionBottom = sectionTop + section.outerHeight();
                 const sectionId = section.attr('id');
-                
+
                 if (scrollPos >= sectionTop && scrollPos < sectionBottom) {
                     $('.nav-link').removeClass('active');
                     $(`.nav-link[href="#${sectionId}"]`).addClass('active');
                 }
             });
         }
-        
+
         // ============================================
         // COUNTER ANIMATION
         // ============================================
         function initCounters() {
             let countersStarted = false;
-            
-            $(window).on('scroll', function() {
+
+            $(window).on('scroll', function () {
                 const statsOffset = $('.stats-container').offset();
                 if (!countersStarted && statsOffset && $(window).scrollTop() + $(window).height() > statsOffset.top) {
                     countersStarted = true;
@@ -1882,78 +1953,78 @@
                 }
             });
         }
-        
+
         function animateCounters() {
-            $('.stat-number').each(function() {
+            $('.stat-number').each(function () {
                 const $this = $(this);
                 const countTo = $this.attr('data-count');
-                
+
                 $({ countNum: 0 }).animate({
                     countNum: countTo
                 }, {
                     duration: 2000,
                     easing: 'swing',
-                    step: function() {
+                    step: function () {
                         $this.text(Math.floor(this.countNum).toLocaleString('pt-BR'));
                     },
-                    complete: function() {
+                    complete: function () {
                         $this.text(this.countNum.toLocaleString('pt-BR'));
                     }
                 });
             });
         }
-        
+
         // ============================================
         // FAQ ACCORDION
         // ============================================
         function initFAQ() {
-            $('.faq-question').on('click', function() {
+            $('.faq-question').on('click', function () {
                 const $this = $(this);
                 const $answer = $this.next('.faq-answer');
                 const $icon = $this.find('i');
-                
+
                 // Close other FAQs
                 $('.faq-question').not($this).removeClass('active');
                 $('.faq-answer').not($answer).removeClass('show');
-                
+
                 // Toggle current FAQ
                 $this.toggleClass('active');
                 $answer.toggleClass('show');
-                
+
                 // Update ARIA
                 const isExpanded = $this.hasClass('active');
                 $this.attr('aria-expanded', isExpanded);
             });
-            
+
             // Keyboard navigation
-            $('.faq-question').on('keypress', function(e) {
+            $('.faq-question').on('keypress', function (e) {
                 if (e.which === 13 || e.which === 32) {
                     e.preventDefault();
                     $(this).click();
                 }
             });
         }
-        
+
         // ============================================
         // FORM VALIDATION
         // ============================================
         function initFormValidation() {
-            $('#contactForm').on('submit', function(e) {
+            $('#contactForm').on('submit', function (e) {
                 e.preventDefault();
-                
+
                 // Reset previous errors
                 $('.form-control').removeClass('error');
                 $('.error-message').hide();
-                
+
                 let isValid = true;
-                
+
                 // Validate Name
                 const name = $('#name').val().trim();
                 if (name.length < 3) {
                     showError('#name');
                     isValid = false;
                 }
-                
+
                 // Validate Email
                 const email = $('#email').val().trim();
                 const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -1961,79 +2032,79 @@
                     showError('#email');
                     isValid = false;
                 }
-                
+
                 // Validate Phone
                 const phone = $('#phone').val().replace(/\D/g, '');
                 if (phone.length < 10) {
                     showError('#phone');
                     isValid = false;
                 }
-                
+
                 // Validate Message
                 const message = $('#message').val().trim();
                 if (message.length < 10) {
                     showError('#message');
                     isValid = false;
                 }
-                
+
                 if (isValid) {
                     submitForm();
                 }
             });
         }
-        
+
         function showError(selector) {
             $(selector).addClass('error');
             $(selector).next('.error-message').show();
         }
-        
+
         function submitForm() {
             const $button = $('.btn-submit');
             const $btnText = $('.btn-text');
             const $spinner = $('.spinner');
-            
+
             // Show loading state
             $button.addClass('loading');
             $btnText.text('Enviando...');
             $spinner.show();
-            
+
             // Simulate form submission (replace with actual AJAX call)
-            setTimeout(function() {
+            setTimeout(function () {
                 // Hide loading state
                 $button.removeClass('loading');
                 $btnText.text('Enviar Mensagem');
                 $spinner.hide();
-                
+
                 // Show success message
                 $('.success-message').slideDown();
-                
+
                 // Reset form
                 $('#contactForm')[0].reset();
-                
+
                 // Hide success message after 5 seconds
-                setTimeout(function() {
+                setTimeout(function () {
                     $('.success-message').slideUp();
                 }, 5000);
-                
+
                 // Optional: Send to WhatsApp
                 const name = $('#name').val();
                 const phone = $('#phone').val();
                 const service = $('#service option:selected').text();
                 const message = $('#message').val();
-                
+
                 const whatsappMessage = `Olá! Meu nome é ${name}. Telefone: ${phone}. Serviço de interesse: ${service}. Mensagem: ${message}`;
                 // Uncomment to redirect to WhatsApp
                 // window.open(`https://wa.me/5511987654321?text=${encodeURIComponent(whatsappMessage)}`, '_blank');
-                
+
             }, 2000);
         }
-        
+
         // ============================================
         // LAZY LOAD IMAGES
         // ============================================
         function lazyLoadImages() {
             const images = document.querySelectorAll('.lazy-load');
-            
+
             const imageObserver = new IntersectionObserver((entries, observer) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
@@ -2043,18 +2114,18 @@
                     }
                 });
             });
-            
+
             images.forEach(img => imageObserver.observe(img));
         }
-        
+
         // ============================================
         // GALLERY LIGHTBOX
         // ============================================
         function initGalleryLightbox() {
-            $('.gallery-item').on('click', function() {
+            $('.gallery-item').on('click', function () {
                 const imgSrc = $(this).find('img').attr('src');
                 const imgAlt = $(this).find('img').attr('alt');
-                
+
                 // Create lightbox (simple implementation)
                 const lightbox = $(`
                     <div class="lightbox" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); z-index: 9999; display: flex; align-items: center; justify-content: center; cursor: pointer;">
@@ -2062,18 +2133,18 @@
                         <span style="position: absolute; top: 20px; right: 40px; color: white; font-size: 40px; cursor: pointer;">&times;</span>
                     </div>
                 `);
-                
+
                 $('body').append(lightbox);
                 lightbox.fadeIn(300);
-                
-                lightbox.on('click', function() {
-                    $(this).fadeOut(300, function() {
+
+                lightbox.on('click', function () {
+                    $(this).fadeOut(300, function () {
                         $(this).remove();
                     });
                 });
             });
         }
-        
+
         // ============================================
         // SERVICE MODAL
         // ============================================
@@ -2083,7 +2154,7 @@
             const modal = new bootstrap.Modal(document.getElementById('serviceModal'));
             modal.show();
         }
-        
+
         // ============================================
         // WHATSAPP FUNCTION
         // ============================================
@@ -2091,25 +2162,25 @@
             const message = 'Olá! Gostaria de agendar uma consulta na Sorriso Perfeito Odontologia.';
             window.open(`https://wa.me/5569992996410?text=${encodeURIComponent(message)}`, '_blank');
         }
-        
+
         // ============================================
         // VIDEO PLACEHOLDER
         // ============================================
-        $('.play-button').on('click', function() {
+        $('.play-button').on('click', function () {
             // In a real implementation, you would load a video here
             alert('Funcionalidade de vídeo será implementada com player real (YouTube, Vimeo, ou HTML5 video).');
         });
-        
+
         // Keyboard accessibility for play button
-        $('.play-button').on('keypress', function(e) {
+        $('.play-button').on('keypress', function (e) {
             if (e.which === 13 || e.which === 32) {
                 e.preventDefault();
                 $(this).click();
             }
         });
-        
+
         // Scroll down arrow
-        $('.scroll-down').on('keypress', function(e) {
+        $('.scroll-down').on('keypress', function (e) {
             if (e.which === 13 || e.which === 32) {
                 e.preventDefault();
                 $(this).click();
@@ -2117,4 +2188,5 @@
         });
     </script>
 </body>
+
 </html>
